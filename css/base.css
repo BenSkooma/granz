@@ -5,13 +5,21 @@
 :root {
 
   --color-gray-1: rgb(238, 238, 238);
-  --color-gray-2: rgb(34, 34, 34);
+  --color-gray-2: rgb(68, 68, 68);
 
   --space-around-m: 1.5rem;
 
-  --header-height: 100px;
+  --header-height: 60px;
 
   --max-inline-size: 160ch;
+}
+
+@media (min-width: 900px) {
+
+  :root {
+    --header-height: 100px;
+  }
+
 }
 
 /* Reset & Config
