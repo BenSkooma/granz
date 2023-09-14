@@ -111,10 +111,17 @@
         font-family: 'Roboto Condensed', sans-serif;
         font-weight: 600;
         text-transform: uppercase;
+        transform-origin: top;
+        transform: translateY(-10px);
+        opacity: 0;
+        transition: all .8s ease-in-out;
+        transition-delay: 50ms;
     }
 
     .page-mainnav.is-open .page-mainnav__nav-list {
         overflow-y: auto;
+        transform: translateY(0);
+        opacity: 1;
     }
 
     .page-mainnav__nav-list a {
