@@ -88,7 +88,6 @@
 
 .page-subnav__inner {
     display: flex;
-    flex-direction: column;
     justify-self: center;
     justify-content: flex-start;
     overflow: hidden;
@@ -97,6 +96,7 @@
 
 .page-subnav__nav-list {
     display: flex;
+    flex-direction: column;
     background-color: yellow;
     margin-block: 1rem;
 }
