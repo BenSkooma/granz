@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;300;400;500&display=swap');
 
 /* Variables
 /* ============================================================================ */
@@ -11,7 +12,7 @@
 
   --header-height: 60px;
 
-  --max-inline-size: 160ch;
+  --max-inline-size: 140ch;
 }
 
 @media (min-width: 900px) {
@@ -24,6 +25,7 @@
 
 /* Reset & Config
 /* ============================================================================ */
+
 *,
 *::before, *::after {
   box-sizing: border-box;
@@ -91,5 +93,10 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Utility Klassen
+/* Typo
 /* ============================================================================ */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+
+}
